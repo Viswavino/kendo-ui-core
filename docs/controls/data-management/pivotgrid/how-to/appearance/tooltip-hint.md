@@ -78,7 +78,7 @@ The following example demonstrates how to display a tooltip hint when users hove
 
          return kendo.template($("#template").html())({
             rowText: generateName(cellInfo.rowTuple),
-            columnText: generateName(cellInfo.columnTuple),
+            
             value: cellInfo.dataItem.fmtValue
          });
       }
